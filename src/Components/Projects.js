@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectBox from "./ProjectBox";
-import img1 from "../images/opuluxe-small.png";
 const Projects = () => {
   return (
     <div>
@@ -12,6 +11,7 @@ const Projects = () => {
         <ProjectBox projectName="AI-Powered Cloud Chatbot Using AWS and Hugging Face" />
         <ProjectBox projectName="Loan Prediction System Using Machine Learning" />
         <ProjectBox projectName="Expense Tracker Web Application" />
+        <ProjectBox projectName="Live Stock Trading Simulation" />
       </div>
     </div>
   );

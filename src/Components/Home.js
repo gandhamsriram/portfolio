@@ -1,12 +1,10 @@
 import React from "react";
-import Lottie from "lottie-react";
 import Typed from "./Typed.js";
 import Tilt from "react-parallax-tilt";
-import Avatar from "../images/Avatar.png";
-import boyAnimation from "../LottieFiles/boyAnimation.json";
+import SriramPhoto from "../images/Sriram_Professional.jpg";
 import { Link } from "react-router-dom";
-import { BsPerson, BsCodeSlash } from "react-icons/bs";
-import { FaChevronRight, FaRobot, FaLaptopCode } from "react-icons/fa6";
+import { BsPerson } from "react-icons/bs";
+import { FaChevronRight, FaLaptopCode, FaRobot } from "react-icons/fa6";
 import { BiTrendingUp } from "react-icons/bi";
 
 const Home = () => {
@@ -16,7 +14,7 @@ const Home = () => {
         <div className="HomeText">
           <h1>Hi There!</h1>
           <h1>
-            I'M <b>Gandham Sriram</b>
+            I'M <b>Gandham SriRam</b>
           </h1>
           <Typed />
           
@@ -31,11 +29,7 @@ const Home = () => {
         </div>
 
         <Tilt>
-          <Lottie
-            className="illustration"
-            animationData={boyAnimation}
-            loop={true}
-          />
+          <img src={SriramPhoto} alt="Gandham SriRam" className="illustration home-avatar" />
         </Tilt>
       </div>
 

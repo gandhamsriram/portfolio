@@ -29,13 +29,7 @@ function App() {
     <>
       {Loading ? (
       <div className="loader"> 
-        <HashLoader
-          color={'#FBA834'}
-          loading={true}
-          size={100}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+        <h1 className="loader-text">GSR</h1>
       </div>
       ):(
       <div>
