@@ -1,6 +1,6 @@
 import React from 'react'; 
 import { TbBrandPython, TbApi } from "react-icons/tb";
-import { SiCplusplus, SiJavascript, SiLatex, SiFlask, SiMysql, SiMongodb, SiGooglecloud, SiPostman, SiSolidity, SiC, SiFigma, SiExpress, SiSap, SiVisualstudiocode, SiAwslambda, SiAmazonec2, SiAmazons3 } from "react-icons/si";
+import { SiCplusplus, SiJavascript, SiLatex, SiFlask, SiMysql, SiMongodb, SiGooglecloud, SiPostman, SiSolidity, SiC, SiFigma, SiExpress, SiBootstrap, SiSap, SiVisualstudiocode, SiAwslambda, SiAmazonec2, SiAmazons3 } from "react-icons/si";
 import { FaJava } from "react-icons/fa6";
 import { FaAngular, FaReact, FaNode, FaAws, FaGitAlt, FaGithub, FaCss3Alt, FaDatabase, FaCube, FaUserTie, FaClipboardList, FaIndustry } from "react-icons/fa";
 import { DiDjango } from "react-icons/di";
@@ -18,6 +18,7 @@ const Skills = ({skill, onClick}) => {
         c: <SiC/>,
         css: <FaCss3Alt/>,
         figma: <SiFigma/>,
+        bootstrap: <SiBootstrap/>,
         express: <SiExpress/>,
         python : <TbBrandPython/>,
         cpp : <SiCplusplus/>,
@@ -65,6 +66,7 @@ const Skills = ({skill, onClick}) => {
         c: "C",
         css: "CSS3",
         figma: "Figma",
+        bootstrap: "Bootstrap",
         express: "Express.js",
         python : "Python",
         cpp : "C++",

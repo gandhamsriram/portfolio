@@ -36,14 +36,14 @@ const Resume = () => {
     {
       title: "Generative AI Internship Completion",
       issuer: "EduBot",
-      date: "June 2026",
+      date: "2025",
       link: process.env.PUBLIC_URL + "/certificates/Internship_Completion_Certificate.pdf",
       description: "Successfully completed prompt engineering, AI validation workflows, and personalized educational assistant workflows."
     },
     {
       title: "Oracle Certified Professional: Java SE",
       issuer: "Oracle",
-      date: "2025",
+      date: "2026",
       link: process.env.PUBLIC_URL + "/certificates/Java_oracle.pdf",
       description: "Validated expertise in Java SE, class design, exception handling, data structures, concurrency, and I/O frameworks."
     },
@@ -57,7 +57,7 @@ const Resume = () => {
     {
       title: "SAP Certified Application Associate",
       issuer: "SAP",
-      date: "2025",
+      date: "2026",
       link: process.env.PUBLIC_URL + "/certificates/SAP_Certificate.pdf",
       description: "Certified training in SAP ERP modules, including MM, SD, and PP configurations, materials master, and master data."
     }

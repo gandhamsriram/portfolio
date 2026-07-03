@@ -31,6 +31,8 @@ const About = () => {
     css: { name: 'CSS3', description: 'Cascading Style Sheets used to style web documents, enabling beautiful layouts, fluid animations, typography hierarchies, and responsive designs.', category: 'Web Technologies' },
     react: { name: 'React.js', description: 'A highly popular declarative, component-based frontend JavaScript library used for building interactive and high-performance user interfaces.', category: 'Web Technologies' },
     node: { name: 'Node.js', description: 'A server-side JavaScript runtime built on Chrome\'s V8 engine, used for writing high-throughput, non-blocking APIs and web services.', category: 'Web Technologies' },
+    bootstrap: { name: 'Bootstrap', description: 'A popular CSS framework for developing responsive and mobile-first websites quickly.', category: 'Web Technologies' },
+    express: { name: 'Express.js', description: 'A fast, unopinionated, minimalist web framework for Node.js, used for building APIs and web applications.', category: 'Web Technologies' },
     
     firebase: { name: 'Firebase', description: 'Google\'s Backend-as-a-Service (BaaS) platform, providing real-time databases, user authentication, static hosting, and cloud functions.', category: 'Backend, Database & Cloud' },
     rest_api: { name: 'REST APIs', description: 'Representational State Transfer APIs, providing standard endpoints and methods (GET, POST, PUT, DELETE) to allow client applications to talk to backend databases.', category: 'Backend, Database & Cloud' },
@@ -61,7 +63,7 @@ const About = () => {
     },
     {
       title: "Web Technologies",
-      skills: ["html", "css", "react", "node"]
+      skills: ["html", "css", "bootstrap", "react", "node", "express"]
     },
     {
       title: "Backend, Database & Cloud",
