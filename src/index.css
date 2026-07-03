@@ -1465,3 +1465,42 @@ footer h4 {
   border-color: var(--accent-primary);
   box-shadow: 0 15px 35px rgba(99, 102, 241, 0.5);
 }
+
+/* Project Category Filter */
+.project-filter-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 40px;
+  padding: 0 5%;
+}
+
+.filter-btn {
+  background: transparent;
+  color: var(--text-secondary);
+  border: none;
+  font-family: var(--font-headings);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.filter-btn:hover {
+  color: var(--text-primary);
+  background: var(--glass-border-hover);
+}
+
+.filter-btn.active {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(140, 122, 107, 0.4);
+}
+
+[data-theme='dark'] .filter-btn.active {
+  background: linear-gradient(135deg, var(--accent-primary) 0%, var(--accent-secondary) 100%);
+  box-shadow: 0 4px 15px rgba(31, 78, 121, 0.4);
+}
